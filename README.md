@@ -10,7 +10,7 @@ The goal of this challenge is to produce a Docker image that serves static asset
 ## React
 React app base image: `node:12.13.0-alpine`
 
-Install repository contents to `/app` directory in the image
+Copy repository contents to `/app` directory in the image
 
 Build steps:
 * install dependencies: `npm install`
